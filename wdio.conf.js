@@ -78,15 +78,11 @@ exports.config = {
         // 5 instance gets started at a time.
         //maxInstances: 5,
         //
-      {browserName: 'firefox', platformName: 'Windows 10', browserVersion: 'latest', 'sauce:options': {'seleniumVersion': '3.14.0',tags: 'webdriverioSmokeTest',
-                build: process.env.BUILD_TAG}},
-      {browserName: 'chrome', platform: 'OS X 10.13', version: 'latest'},'sauce:options': {
-                'seleniumVersion': '3.14.0',
-                tags: 'webdriverSmokeTestChrome',
-                build: process.env.BUILD_TAG
-            }
+    
+	 {browserName: 'firefox', platformName: 'Windows 10', browserVersion: 'latest', 'sauce:options': {'seleniumVersion': '3.14.0'}},
+      {browserName: 'chrome', platform: 'OS X 10.13', version: 'latest'},
       {browserName: 'internet explorer', platform: 'Windows 10', version: '11.0'}
-    ],
+],
     //
     // ===================
     // Test Configurations
