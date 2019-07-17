@@ -65,7 +65,7 @@ exports.config = {
     // from the same test should run tests.
     //
     maxInstances: 40,
-    tags: 'WebDriverIOSmokeTest';
+    tags:process.env.TAG ;
     build_tag: process.env.BUILD_TAG,
     //
     // If you have trouble getting all important capabilities together, check out the
