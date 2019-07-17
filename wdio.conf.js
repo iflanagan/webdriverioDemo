@@ -65,8 +65,8 @@ exports.config = {
     // from the same test should run tests.
     //
     maxInstances: 40,
-    tags: "WebDriverIOSmokeTest";
-    build: build_tag: process.env.BUILD_TAG,
+    tags: 'WebDriverIOSmokeTest';
+    build_tag: process.env.BUILD_TAG,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
