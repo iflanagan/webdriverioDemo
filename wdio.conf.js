@@ -24,7 +24,7 @@ exports.config = {
     //
     user: process.env.SAUCE_USERNAME,
     key: process.env.SAUCE_ACCESS_KEY,
-    build_tag: process.env.BUILD_TAG,
+    
     //
     // If you run your tests on SauceLabs you can specify the region you want to run your tests
     // in via the `region` property. Available short handles for regions are `us` (default) and `eu`.
@@ -65,6 +65,8 @@ exports.config = {
     // from the same test should run tests.
     //
     maxInstances: 40,
+    tags: "WebDriverIOSmokeTest";
+    build: build_tag: process.env.BUILD_TAG,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
